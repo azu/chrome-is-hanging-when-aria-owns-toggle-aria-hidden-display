@@ -6,6 +6,12 @@
 2. Click "Click me and Hang"
 3. Chrome is hang(CPU 100%)
 
+## Tested environment
+
+- Chrome 117.0.5938.62（Official Build） （arm64）
+- Chrome 118.0.5993.11（Official Build）dev （arm64）
+
+
 ## License
 
 MIT
