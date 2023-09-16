@@ -2,7 +2,7 @@
 
 `aria-owns` attribute causes Chrome to hang in some-case.
 
-> **Note**:
+> **Note**
 > Chromium issue: <https://bugs.chromium.org/p/chromium/issues/detail?id=1483648>
 
 ## Steps to reproduce
