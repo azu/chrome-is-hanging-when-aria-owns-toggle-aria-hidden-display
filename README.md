@@ -14,6 +14,8 @@
 - Chrome 118.0.5993.11（Official Build）dev （arm64） - hang
 - Chrome Canary 119.0.6010.2（Official Build）canary （arm64）- crash
 
+Chromium issue: <https://bugs.chromium.org/p/chromium/issues/detail?id=1483648>
+
 ## License
 
 MIT
