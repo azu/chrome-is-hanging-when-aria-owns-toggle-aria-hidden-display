@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Chrome bug: aria-owns + toggle aria-hidden/display hangs Chrome</title>
 </head>
 <body>
-$END$
+<p>DUMMY TEXT FOR TESTING HANG</p>
+<button id="button">Click me and Hang</button>
+<script>
+    const button = document.getElementById("button");
+    button.addEventListener("click", () => {
+        // aria-hidden to true
+        const test = document.getElementById("test");
+        test.setAttribute("aria-hidden", "false");
+        // style to display
+        test.style.display = "block";
+    });
+</script>
+<div id="test" aria-hidden="true" style="display: none;">
+    <div>
+        <div id="menu-random-id-001" role="menu">
+            <ul>
+                <li aria-owns="menu-random-id-001">test</li>
+            </ul>
+        </div>
+    </div>
+</div>
 </body>
 </html>
