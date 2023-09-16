@@ -10,14 +10,14 @@
 <script>
     const button = document.getElementById("button");
     button.addEventListener("click", () => {
-        // aria-hidden to true
         const test = document.getElementById("test");
+        // aria-hidden to true
         test.setAttribute("aria-hidden", "false");
         // style to display
         test.style.display = "block";
     });
 </script>
-<div id="test" aria-hidden="true" style="display: none;">
+<div id="test" style="display: none;">
     <div>
         <div id="menu-random-id-001" role="menu">
             <ul>
