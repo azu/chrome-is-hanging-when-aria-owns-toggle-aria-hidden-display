@@ -10,9 +10,9 @@
 
 ## Tested environment
 
-- Chrome 117.0.5938.62（Official Build） （arm64）
-- Chrome 118.0.5993.11（Official Build）dev （arm64）
-- Chrome Canary 119.0.6010.2（Official Build）canary （arm64）
+- Chrome 117.0.5938.62（Official Build） （arm64） - hang
+- Chrome 118.0.5993.11（Official Build）dev （arm64） - hang
+- Chrome Canary 119.0.6010.2（Official Build）canary （arm64）- crash
 
 ## License
 
