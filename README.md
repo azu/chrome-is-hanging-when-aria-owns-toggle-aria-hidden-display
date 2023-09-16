@@ -1,4 +1,4 @@
-# Chrome to hang on `aria-own`/`aria-hidden`/`display` property
+# Chrome is hanging on `aria-own`/`aria-hidden`/`display` property
 
 `aria-owns` attribute causes Chrome to hang in some-case.
 
