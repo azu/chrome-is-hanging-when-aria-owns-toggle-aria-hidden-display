@@ -1,4 +1,4 @@
-# Chrome is hang on `aria-own`/`aria-hidden`/`display` property
+# Chrome is frozen on `aria-own`/`aria-hidden`/`display` property
 
 ## Steps to reproduce
 
