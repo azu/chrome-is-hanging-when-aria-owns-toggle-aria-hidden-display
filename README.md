@@ -13,6 +13,7 @@
 
 ## Tested environment
 
+- Chrome 116.0.5793.0 (Official Build) （arm64） - OK
 - Chrome 117.0.5938.62（Official Build） （arm64） - hang
 - Chrome 118.0.5993.11（Official Build）dev （arm64） - hang
 - Chrome Canary 119.0.6010.2（Official Build）canary （arm64）- crash
